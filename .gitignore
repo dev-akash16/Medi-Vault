@@ -1,0 +1,19 @@
+
+# Dependencies
+**/node_modules/
+
+# MongoDB and other caches
+**/.cache/
+**/.mongodb-memory-server/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
